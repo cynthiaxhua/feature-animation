@@ -17,7 +17,7 @@ Results: The Classifier had lower accuracy (69.5%) when tested on bitmap to vect
 
 # Feature Classification
 
-This pipeline was fitted with varying machine learning methods for classification. We compare a bi-directional RNN with K-means, K-Nearest Neighbors and a CNN — all implemented using Keras.
+This pipeline was fitted with varying machine learning methods for classification. We compare a bi-directional RNN (with a softmax classification layer) with K-means, K-Nearest Neighbors and a CNN — all implemented using Keras.
 
 ![alt text](https://github.com/cynthiaxhua/feature-animation/blob/master/accuracy.png "Classification Accuracy")
 
